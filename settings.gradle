@@ -1,0 +1,2 @@
+rootProject.name='PhoneNumberAuth'
+include ':app'

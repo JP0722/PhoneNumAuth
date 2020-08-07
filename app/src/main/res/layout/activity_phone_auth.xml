@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhoneAuthAct">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter phone number"
+        android:layout_margin="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/bt_send_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Otp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="number"
+        android:hint="Enter verification OTP"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/bt_resend_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Resend OTP"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/bt_verify_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Verify OTP"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
